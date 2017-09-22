@@ -1,0 +1,30 @@
+{
+  "name": "meansocial",
+  "version": "1.0.0",
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkokoc/meanSocial.git"
+  },
+  "author": "Eli Litt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkokoc/meanSocial/issues"
+  },
+  "homepage": "https://github.com/mrkokoc/meanSocial#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^8.0.1",
+    "mongoose": "^4.10.8",
+    "passport": "^0.4.0",
+    "passport-jwt": "^3.0.0"
+  }
+}
