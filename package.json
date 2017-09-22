@@ -19,12 +19,14 @@
   "homepage": "https://github.com/mrkokoc/meanSocial#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.1",
+    "body-parser": "^1.16.1",
     "cors": "^2.8.4",
     "express": "^4.15.4",
     "jsonwebtoken": "^8.0.1",
+    "mongo": "^0.1.0",
+    "mongo-db": "^1.0.2",
     "mongoose": "^4.10.8",
     "passport": "^0.4.0",
-    "passport-jwt": "^3.0.0"
+    "passport-jwt": "2.2.1"
   }
 }
